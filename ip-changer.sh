@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# IP Changer Script for Nobara OS (uses NetworkManager)
 # Usage: sudo ./ip-changer.sh <interface> <interval_minutes> [method]
 
 # Methods: 
