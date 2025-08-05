@@ -1,6 +1,11 @@
+# IP-Changer
+
 ## How to Use
 
-Save as `ip-changer.sh`
+Clone:
+```bash
+git clone https://github.com/sudesh3107/IP-Changer.git
+```
 
 Make executable:
 ```bash
@@ -15,12 +20,11 @@ sudo ./ip-changer.sh enp0s3 15 dhcp_renew
 - `15`: time interval or another script parameter
 - `dhcp_renew`: action/mode
 
-# IP-Changer
 
 ## Configuration Options
 
 **Methods:**
-- **dhcp_renew:** Release/renew DHCP lease (best for most users)
+- **dhcp_renew:** Renew DHCP lease (best for most users)
 - **random_static:** Cycle through predefined static IPs (configure STATIC_IPS array)
 - **restart_interface:** Full interface restart (most disruptive)
 
