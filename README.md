@@ -1,3 +1,20 @@
+## How to Use
+
+Save as `ip-changer.sh`
+
+Make executable:
+```bash
+chmod +x ip-changer.sh
+```
+
+Run with sudo:
+```bash
+sudo ./ip-changer.sh enp0s3 15 dhcp_renew
+```
+- `enp0s3`: network interface name
+- `15`: time interval or another script parameter
+- `dhcp_renew`: action/mode
+
 # IP-Changer
 
 ## Configuration Options
