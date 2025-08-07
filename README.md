@@ -58,3 +58,4 @@ sudo pkill -f ip-changer.sh
   ```
 - Test different methods to see which works best with your network
 - Static IPs must be in your router's valid range
+- use ip2.sh script if you faced any error with ip-changer script. << use it if you are using ethernet!!
